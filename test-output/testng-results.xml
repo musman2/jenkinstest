@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="267642" started-at="2017-02-19T10:20:47Z" finished-at="2017-02-19T10:25:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="267642" started-at="2017-02-19T10:20:47Z" finished-at="2017-02-19T10:25:15Z">
+      <class name="Clinical_Login_Group.Clinical_Login.Journal_Login">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:Clinical_Login_Group.Clinical_Login.Journal_Login@255b53dc]" name="setUpBeforeClass" is-config="true" duration-ms="132139" started-at="2017-02-19T15:20:47Z" finished-at="2017-02-19T15:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="Sign_in_User()[pri:0, instance:Clinical_Login_Group.Clinical_Login.Journal_Login@255b53dc]" name="Sign_in_User" duration-ms="19279" started-at="2017-02-19T15:22:59Z" finished-at="2017-02-19T15:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_in_User -->
+        <test-method status="PASS" signature="Article_Library()[pri:0, instance:Clinical_Login_Group.Clinical_Login.Journal_Login@255b53dc]" name="Article_Library" duration-ms="85772" started-at="2017-02-19T15:23:19Z" finished-at="2017-02-19T15:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Article_Library -->
+        <test-method status="PASS" signature="Create_Journal_Club()[pri:0, instance:Clinical_Login_Group.Clinical_Login.Journal_Login@255b53dc]" name="Create_Journal_Club" duration-ms="30222" started-at="2017-02-19T15:24:44Z" depends-on-methods="Clinical_Login_Group.Clinical_Login.Journal_Login.Article_Library" finished-at="2017-02-19T15:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Journal_Club -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:Clinical_Login_Group.Clinical_Login.Journal_Login@255b53dc]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2017-02-19T15:25:15Z" finished-at="2017-02-19T15:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:Clinical_Login_Group.Clinical_Login.Journal_Login@255b53dc]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-02-19T15:25:15Z" finished-at="2017-02-19T15:25:15Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+	The method getDefaultInstance(Properties) is undefined for the type Session
+	The constructor MimeMessage(Session) is undefined
+	The method getTransport(String) is undefined for the type Session
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+	The method getDefaultInstance(Properties) is undefined for the type Session
+	The constructor MimeMessage(Session) is undefined
+	The method getTransport(String) is undefined for the type Session
+
+	at Clinical_Login_Group.Clinical_Login.Journal_Login.sendPDFReportByGMail(Journal_Login.java:600)
+	at Clinical_Login_Group.Clinical_Login.Journal_Login.tearDown(Journal_Login.java:583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Clinical_Login_Group.Clinical_Login.Journal_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

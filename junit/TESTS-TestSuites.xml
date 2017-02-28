@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="2" failures="0" hostname="Xone" id="0" name="DelayedBag" package="session_package" skipped="0" tests="3" time="77.869" timestamp="2016-07-24T08:25:09">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="Xone" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows 8" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_25\lib\resources.jar;C:\Program Files\Java\jre1.8.0_25\lib\rt.jar;C:\Program Files\Java\jre1.8.0_25\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_25\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_25\lib\jce.jar;C:\Program Files\Java\jre1.8.0_25\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_25\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_25\classes" />
+
+          <property name="env.COMPUTERNAME" value="XONE" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="java.runtime.version" value="1.8.0_25-b18" />
+
+          <property name="env.HOMEPATH" value="\Users\Xone-pc" />
+
+          <property name="user.name" value="Xone-pc" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="Session_demo" />
+
+          <property name="java.version" value="1.8.0_25" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel" />
+
+          <property name="user.timezone" value="Asia/Karachi" />
+
+          <property name="env.asl.log" value="Destination=file" />
+
+          <property name="env.TEMP" value="C:\Users\Xone-pc\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\endorsed" />
+
+          <property name="env.JDK_HOME" value="C:\Program Files\Java\jdk1.8.0_25" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="ECLIPSE_HOME" value="E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_25" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.APPDATA" value="C:\Users\Xone-pc\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\build.xml" />
+
+          <property name="os.version" value="6.2" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="ant.file.Session_demo" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\build.xml" />
+
+          <property name="java.vm.version" value="25.25-b02" />
+
+          <property name="ant.file.type.Session_demo" value="file" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\Xone-pc" />
+
+          <property name="ant.library.dir" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_25" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\Xone-pc\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+
+          <property name="user.home" value="C:\Users\Xone-pc" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_25\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform;C:\Program Files\apache-ant-1.9.7\bin;E:\Maven\bin;C:\Users\Xone-pc\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.2\bin;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse;;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner session_package.DelayedBag skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\junit\TEST-session_package.DelayedBag.xml crashfile=C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\junitvmwatcher5642799720107603742.properties propsfile=C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\junit8714836763023527393.properties" />
+
+          <property name="java.class.path" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\bin;C:\Users\Xone-pc\workspace\junit-4.10.jar;C:\Users\Xone-pc\workspace\selenium-server-standalone-2.48.2.jar;G:\junit.jar\junit.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.LOGONSERVER" value="\\XONE" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="env.ANT_HOME" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="env.PROCESSOR_REVISION" value="4501" />
+
+          <property name="eclipse.pdebuild.home" value="/E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Xone-pc\AppData\Local\Temp\" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\Xone-pc\AppData\Local" />
+
+          <property name="user.dir" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo" />
+
+          <property name="env.MAVEN_HOME" value="E:\Maven" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Xone-pc\AppData\Local\Temp\null2138414154" />
+
+          <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_25\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform;C:\Program Files\apache-ant-1.9.7\bin;E:\Maven\bin;C:\Users\Xone-pc\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.2\bin;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse;" />
+
+          <property name="basedir" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="Xone-pc" />
+
+          <property name="source" value="1.7" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="env.USERDOMAIN" value="Xone" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,Test_Demo" />
+
+          <property name="env.VBOX_MSI_INSTALL_PATH" value="c:\Program Files\Oracle\VirtualBox\" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="session_package.DelayedBag" name="Delayed_Bag_Part2" time="0.12">
+          <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;nav&quot;]/ion-page[3]/ion-navbar/div[2]/ion-buttons/button&quot;}&#xa;  (Session info: chrome=51.0.2704.106)&#xa;  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 73 milliseconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;&#xa;System info: host: &apos;Xone&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Xone-pc\AppData\Local\Temp\scoped_dir7876_16666}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: 3c0b0b17d652481c18554f7ff3489615&#xa;*** Element info: {Using=xpath, value=//*[@id=&quot;nav&quot;]/ion-page[3]/ion-navbar/div[2]/ion-buttons/button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;nav&quot;]/ion-page[3]/ion-navbar/div[2]/ion-buttons/button&quot;}
+  (Session info: chrome=51.0.2704.106)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
+System info: host: &apos;Xone&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Xone-pc\AppData\Local\Temp\scoped_dir7876_16666}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c0b0b17d652481c18554f7ff3489615
+*** Element info: {Using=xpath, value=//*[@id=&quot;nav&quot;]/ion-page[3]/ion-navbar/div[2]/ion-buttons/button}
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at session_package.DelayedBag.Delayed_Bag_Part2(DelayedBag.java:200)
+</error>
+
+      </testcase>
+
+      <testcase classname="session_package.DelayedBag" name="Delayed_Bag_Part1" time="0.032">
+          <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;nav&apos;]/ion-page/ion-navbar/ion-buttons/button&quot;}&#xa;  (Session info: chrome=51.0.2704.106)&#xa;  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 28 milliseconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;&#xa;System info: host: &apos;Xone&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Xone-pc\AppData\Local\Temp\scoped_dir7876_16666}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: 3c0b0b17d652481c18554f7ff3489615&#xa;*** Element info: {Using=xpath, value=//*[@id=&apos;nav&apos;]/ion-page/ion-navbar/ion-buttons/button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;nav&apos;]/ion-page/ion-navbar/ion-buttons/button&quot;}
+  (Session info: chrome=51.0.2704.106)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
+System info: host: &apos;Xone&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Xone-pc\AppData\Local\Temp\scoped_dir7876_16666}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c0b0b17d652481c18554f7ff3489615
+*** Element info: {Using=xpath, value=//*[@id=&apos;nav&apos;]/ion-page/ion-navbar/ion-buttons/button}
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at session_package.DelayedBag.Delayed_Bag_Part1(DelayedBag.java:61)
+</error>
+
+      </testcase>
+
+      <testcase classname="session_package.DelayedBag" name="Sign_in_User" time="9.541" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 19252
+Only local connections are allowed.
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Xone" id="1" name="ExternalLink" package="session_package" skipped="0" tests="3" time="85.104" timestamp="2016-07-24T13:54:37">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="Xone" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows 8" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_25\lib\resources.jar;C:\Program Files\Java\jre1.8.0_25\lib\rt.jar;C:\Program Files\Java\jre1.8.0_25\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_25\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_25\lib\jce.jar;C:\Program Files\Java\jre1.8.0_25\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_25\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_25\classes" />
+
+          <property name="env.COMPUTERNAME" value="XONE" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="java.runtime.version" value="1.8.0_25-b18" />
+
+          <property name="env.HOMEPATH" value="\Users\Xone-pc" />
+
+          <property name="user.name" value="Xone-pc" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="Session_demo" />
+
+          <property name="java.version" value="1.8.0_25" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel" />
+
+          <property name="user.timezone" value="Asia/Karachi" />
+
+          <property name="env.asl.log" value="Destination=file" />
+
+          <property name="env.TEMP" value="C:\Users\Xone-pc\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\endorsed" />
+
+          <property name="env.JDK_HOME" value="C:\Program Files\Java\jdk1.8.0_25" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="ECLIPSE_HOME" value="E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_25" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.APPDATA" value="C:\Users\Xone-pc\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\build.xml" />
+
+          <property name="os.version" value="6.2" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="ant.file.Session_demo" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\build.xml" />
+
+          <property name="java.vm.version" value="25.25-b02" />
+
+          <property name="ant.file.type.Session_demo" value="file" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\Xone-pc" />
+
+          <property name="ant.library.dir" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_25" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\Xone-pc\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+
+          <property name="user.home" value="C:\Users\Xone-pc" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_25\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform;C:\Program Files\apache-ant-1.9.7\bin;E:\Maven\bin;C:\Users\Xone-pc\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.2\bin;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse;;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner session_package.ExternalLink skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\junit\TEST-session_package.ExternalLink.xml crashfile=C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\junitvmwatcher4329179183075531094.properties propsfile=C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\junit5450129181786449912.properties" />
+
+          <property name="java.class.path" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\bin;C:\Users\Xone-pc\workspace\junit-4.10.jar;C:\Users\Xone-pc\workspace\selenium-server-standalone-2.48.2.jar;G:\junit.jar\junit.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.LOGONSERVER" value="\\XONE" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="env.ANT_HOME" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="env.PROCESSOR_REVISION" value="4501" />
+
+          <property name="eclipse.pdebuild.home" value="/E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Xone-pc\AppData\Local\Temp\" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\Xone-pc\AppData\Local" />
+
+          <property name="user.dir" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo" />
+
+          <property name="env.MAVEN_HOME" value="E:\Maven" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Xone-pc\AppData\Local\Temp\null700467542" />
+
+          <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_25\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform;C:\Program Files\apache-ant-1.9.7\bin;E:\Maven\bin;C:\Users\Xone-pc\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.2\bin;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse;" />
+
+          <property name="basedir" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="Xone-pc" />
+
+          <property name="source" value="1.7" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="env.USERDOMAIN" value="Xone" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,Test_Demo" />
+
+          <property name="env.VBOX_MSI_INSTALL_PATH" value="c:\Program Files\Oracle\VirtualBox\" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="session_package.ExternalLink" name="New_Conversion" time="3.713" />
+
+      <testcase classname="session_package.ExternalLink" name="Search_Keyword" time="11.163" />
+
+      <testcase classname="session_package.ExternalLink" name="Sign_in_User" time="12.765" />
+
+      <system-out><![CDATA[I'm in exception no # 2
+Screenshot has been taken
+I'm in exception no # 3
+Screenshot has been taken
+]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 18335
+Only local connections are allowed.
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="Xone" id="2" name="qlue" package="session_package" skipped="0" tests="1" time="0.0" timestamp="2016-07-24T09:38:46">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="Xone" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows 8" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_25\lib\resources.jar;C:\Program Files\Java\jre1.8.0_25\lib\rt.jar;C:\Program Files\Java\jre1.8.0_25\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_25\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_25\lib\jce.jar;C:\Program Files\Java\jre1.8.0_25\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_25\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_25\classes" />
+
+          <property name="env.COMPUTERNAME" value="XONE" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="java.runtime.version" value="1.8.0_25-b18" />
+
+          <property name="env.HOMEPATH" value="\Users\Xone-pc" />
+
+          <property name="user.name" value="Xone-pc" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="Session_demo" />
+
+          <property name="java.version" value="1.8.0_25" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel" />
+
+          <property name="user.timezone" value="Asia/Karachi" />
+
+          <property name="env.asl.log" value="Destination=file" />
+
+          <property name="env.TEMP" value="C:\Users\Xone-pc\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\endorsed" />
+
+          <property name="env.JDK_HOME" value="C:\Program Files\Java\jdk1.8.0_25" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="ECLIPSE_HOME" value="E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_25" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.APPDATA" value="C:\Users\Xone-pc\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\build.xml" />
+
+          <property name="os.version" value="6.2" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="ant.file.Session_demo" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\build.xml" />
+
+          <property name="java.vm.version" value="25.25-b02" />
+
+          <property name="ant.file.type.Session_demo" value="file" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\Xone-pc" />
+
+          <property name="ant.library.dir" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_25" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\Xone-pc\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+
+          <property name="user.home" value="C:\Users\Xone-pc" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_25\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform;C:\Program Files\apache-ant-1.9.7\bin;E:\Maven\bin;C:\Users\Xone-pc\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.2\bin;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse;;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner session_package.qlue skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\junit\TEST-session_package.qlue.xml crashfile=C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\junitvmwatcher5975642862335333026.properties propsfile=C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\junit6373581606582466086.properties" />
+
+          <property name="java.class.path" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo\bin;C:\Users\Xone-pc\workspace\junit-4.10.jar;C:\Users\Xone-pc\workspace\selenium-server-standalone-2.48.2.jar;G:\junit.jar\junit.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.LOGONSERVER" value="\\XONE" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="env.ANT_HOME" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="env.PROCESSOR_REVISION" value="4501" />
+
+          <property name="eclipse.pdebuild.home" value="/E:/eclipse-jee-juno-SR2-win32-x86_64 (1)/eclipse-jee-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Xone-pc\AppData\Local\Temp\" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\Xone-pc\AppData\Local" />
+
+          <property name="user.dir" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo" />
+
+          <property name="env.MAVEN_HOME" value="E:\Maven" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\Xone-pc\AppData\Local\Temp\null1449285069" />
+
+          <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_25\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform;C:\Program Files\apache-ant-1.9.7\bin;E:\Maven\bin;C:\Users\Xone-pc\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.2\bin;E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse;" />
+
+          <property name="basedir" value="C:\Users\Xone-pc\workspace\Selenium_Web Driver Session Stuff\Session_demo" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="E:\eclipse-jee-juno-SR2-win32-x86_64 (1)\eclipse-jee-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="Xone-pc" />
+
+          <property name="source" value="1.7" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="env.USERDOMAIN" value="Xone" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,Test_Demo" />
+
+          <property name="env.VBOX_MSI_INSTALL_PATH" value="c:\Program Files\Oracle\VirtualBox\" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <error message="session_package.qlue" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: session_package.qlue
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

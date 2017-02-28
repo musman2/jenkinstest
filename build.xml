@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="AutoFill">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="/Users/admin/eclipse/"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="Session_demo.classpath">
+        <pathelement location="bin"/>
+       
+    </path>
+              	
+    <target name="sendmail">
+              	    <mail from="[mohusmanpasha@gmail.com]"
+              	    subject="Test Email" mailhost="smpt.gmail.com" 
+              	    user="usman.folio3@gmail.com" password="folio3123" message="This is a test email">
+              	        <to name="Dear Concern" address="[moh.usmanpasha@gmail.com]" />
+              	    </mail>
+      </target>
+              	
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="Session_demo.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+              	
+    <target name="ExternalLink">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="session_package.ExternalLink" todir="${junit.output.dir}"/>
+            <classpath refid="Session_demo.classpath"/>
+        </junit>
+    </target>
+    <target name="Session_demo">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="session_package.DelayedBag" todir="${junit.output.dir}"/>
+            <classpath refid="Session_demo.classpath"/>
+        </junit>
+    </target>
+              	
+      <target name="Session_demo1">
+              	        <mkdir dir="${junit.output.dir}"/>
+              	        <junit fork="yes" printsummary="withOutAndErr">
+              	            <formatter type="xml"/>
+              	            <test name="session_package.DelayedBag" todir="${junit.output.dir}"/>
+              	            <classpath refid="Session_demo.ExternalLink"/>
+              	        </junit>
+              	    </target>         	
+  
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+              	<target name="MaxHeap">
+              	        <java classname="proj3.MaxHeap"
+              	            failonerror="true" fork="yes">
+              	            <classpath refid="AutoFill.classpath"/>
+              	        </java>
+              	    </target>
+              	
+              	<target name="Driver">
+              	        <java classname="driver.Driver"
+              	            failonerror="true" fork="yes">
+              	            <classpath refid="AutoFill.classpath"/>
+              	        </java>
+              	    </target>
+              	
+</project>

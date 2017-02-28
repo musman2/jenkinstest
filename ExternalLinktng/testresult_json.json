@@ -1,0 +1,60 @@
+{
+  "delayed bag": {
+    "single select": {
+      "status": "false",
+      "logs": [
+        "SS1",
+        "SS2",
+        "SS3",
+        "SS4"
+      ]
+    },
+    "multi select": {
+      "status": "true",
+      "logs": [
+        "MS1",
+        "MS2",
+        "MS3",
+        "MS4",
+        "MS5"
+      ]
+    },
+    "picture": {
+      "status": "true",
+      "logs": [
+        "Pic1",
+        "Pic2",
+        "Pic3",
+        "Pic4"
+      ]
+    },
+    "description": {
+      "status": "true",
+      "logs": [
+        "Desc1 kdfslajfdsa",
+        "Desc2 KLSJDS",
+        "Desc3 klds",
+        "Desc4 "
+      ]
+    },
+    "failed": {
+      "status": "true",
+      "logs": [
+        "log1",
+        "log2"
+      ]
+    },
+    "extra": {
+      "status": "true",
+      "logs": [
+        "var1"
+      ]
+    }
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Clinical_Login_Group.Clinical_Login.Journal_Login">
+        <methods>
+          <include name="Sign_in_User"/>
+          <include name="Article_Library"/>
+          <include name="setUpBeforeClass"/>
+          <include name="Create_Journal_Club"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clinical_Login_Group.Clinical_Login.Journal_Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
